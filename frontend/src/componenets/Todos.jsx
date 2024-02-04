@@ -11,7 +11,7 @@ export function Todos({todo}) {
             <button>
               {todos.completed === true ? "Completed" : "Mark as Completed"}
             </button>
-            <button onClick={deleteTodo}>Delete</button>
+            <button>Delete</button>
           </div>
         );
       })}
